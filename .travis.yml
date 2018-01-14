@@ -8,6 +8,7 @@ php:
   - '5.6'
   - '7.0'
   - '7.1'
+  - '7.2'
 
 matrix:
   fast_finish: true
@@ -29,7 +30,9 @@ matrix:
     - php: '7.1'
       env: SYMFONY_VERSION='~3.3.0'
     - php: '7.1'
-      env: SYMFONY_VERSION='~3.4.0@dev'
+      env: SYMFONY_VERSION='~3.4.0'
+    - php: '7.2'
+      env: SYMFONY_VERSION='~3.4.0'
     - php: 'nightly'
       env:
         - COMPOSER_FLAGS='--ignore-platform-reqs'
