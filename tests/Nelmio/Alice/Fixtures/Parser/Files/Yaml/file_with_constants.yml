@@ -7,4 +7,4 @@
 #  file that was distributed with this source code.
 #
 
-max_int: !php/const:PHP_INT_MAX
+max_int: !php/const PHP_INT_MAX
